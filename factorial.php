@@ -1,0 +1,18 @@
+<?php
+
+function factorial($num){
+
+    $factorial=1;
+    for($i=1; $i<=$num; $i++){
+
+        $factorial= $factorial*$i;
+    }
+    return $factorial;
+
+}
+
+$fact = factorial(15);
+echo $fact;
+
+
+?>
